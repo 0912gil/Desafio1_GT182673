@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center">
+
+    <EditText android:id="@+id/etNombre" android:hint="Nombre del estudiante" android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+    <EditText android:id="@+id/etNota1" android:hint="Nota 1" android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+    <EditText android:id="@+id/etNota2" android:hint="Nota 2" android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+    <EditText android:id="@+id/etNota3" android:hint="Nota 3" android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+    <EditText android:id="@+id/etNota4" android:hint="Nota 4" android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+    <EditText android:id="@+id/etNota5" android:hint="Nota 5" android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+    <Button android:id="@+id/btnCalcular" android:hint="Calcular Promedio" android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+    <TextView android:id="@+id/tvResultado" android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+</LinearLayout>
